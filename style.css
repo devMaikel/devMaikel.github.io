@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,300&family=Roboto+Mono:ital,wght@1,100&display=swap');
+body {
+  background-color:darksalmon;
+  font-family: 'Red Hat Mono', monospace;
+  padding: 1%;
+}
+#Nome{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  line-height: 0%;
+  text-align: center;
+}
+#estudante{
+  font-size: 15px;
+  line-height: 0%;
+  text-align: center;
+}
+li {
+  line-height: 50px;
+}
+.redes{
+  text-align: center;
+}
+#Foto{
+  float: left;
+  padding: 10px;
+  background-color:darkgray;
+  
+
+}
+
+div {
+    border: 1px yellow solid;
+    height: 350px;
+    position: relative;
+    
+}
+
+#Sobre {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+ul li:nth-child(odd) { /*pega somente itens impar (odd) se fosse par seria (even)*/
+    background-color: blanchedalmond;
+}
+
+

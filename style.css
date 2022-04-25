@@ -29,7 +29,7 @@ li {
 
 }
 
-div {
+#div-descricao {
     border: 1px yellow solid;
     height: 350px;
     position: relative;
@@ -38,7 +38,7 @@ div {
 
 #Sobre {
     position: absolute;
-    left: 15%;
+    left: 18%;
     top: 35%;
 }
 
@@ -46,4 +46,10 @@ ul li:nth-child(odd) { /*pega somente itens impar (odd) se fosse par seria (even
     background-color: blanchedalmond;
 }
 
+#button-ditado {
+  border-radius: 20%;
+}
 
+.ditado-elements {
+  display: inline-block;
+}

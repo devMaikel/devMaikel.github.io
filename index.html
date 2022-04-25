@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfólio Maikel</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h4>Índice<br> <a href="#Nome">Nome</a> | <a href="#Foto">Foto</a> | <a href="#Sobre">Sobre mim</a> | 
-      <a href="#Caracteristicas">Características</a> | <a href="#redes">Contato</a> </h4>
-    <div>
-      <h2 id="Nome">Maikel M. Silvestre da Fonsêca</h2>
-      <h4 id="estudante">Estudante de Desenvolvimento de Software na <a href="https://www.betrybe.com/" target="_blank">Trybe</a></h4>
-      <img id="Foto" src="Images/Maikel perfil oculos.jpg" width="200px">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h4>Índice<br> <a href="#Nome">Nome</a> | <a href="#Foto">Foto</a> | <a href="#Sobre">Sobre mim</a> | 
+    <a href="#Caracteristicas">Características</a> | <a href="#redes">Contato</a> </h4>
+  <div id="div-descricao">
+    <h2 id="Nome">Maikel M. Silvestre da Fonsêca</h2>
+    <h4 id="estudante">Estudante de Desenvolvimento de Software na <a href="https://www.betrybe.com/" target="_blank">Trybe</a></h4>
+    <img id="Foto" src="Images/Maikel perfil oculos.jpg" width="200px">
+    
+      <p id="Sobre">Olá! Me chamo Maikel, moro em Natal/RN - Brasil. Apaixonado por 
+        <strong>jogos</strong> desde a infância e tenho um fascínio pela 
+        programação e a <strong> infinidade de possibilidades</strong> que ela nos trás!</p>
+       
+  </div>
+  <h3>Principais características</h3>
+  <ul id="Caracteristicas">
+      <li>Altruísmo</li>
+      <li><strong>Facilidade em aprender</strong></li>
+      <li>Determinação</li>
+      <li>Carisma</li>
       
-        <p id="Sobre">Olá! Me chamo Maikel, moro em Natal/RN - Brasil. Apaixonado por 
-          <strong>jogos</strong> desde a infância e tenho um fascínio pela 
-          programação e a <strong> infinidade de possibilidades</strong> que ela nos trás!</p>
-         
-    </div>
-    <h3>Principais características</h3>
-    <ul id="Caracteristicas">
-        <li>Altruísmo</li>
-        <li><strong>Facilidade em aprender</strong></li>
-        <li>Determinação</li>
-        <li>Carisma</li>
-        
 
-        <p>Minha segunda casa é <strong><a href="https://www.google.com" target="_blank">aqui</a></strong>! :D</p>
-    </ul>
-   
+      <!-- <p>Minha segunda casa é <strong><a href="https://www.google.com" target="_blank">aqui</a></strong>! :D</p> -->
+  </ul>
+  <div>
+    <button id="button-ditado" class="ditado-elements">Clique para gerar um ditado aleatório!</button>
+    <p id="ditado" class="ditado-elements"></p>
+  </div>
+  <p id="redes" class="redes"><a href="https://www.linkedin.com/in/maikelmy/" target="_blank">LinkedIn</a></p>
+  <p class="redes"><a href="https://github.com/devMaikel" target="_blank">GitHub</a></p>
 
-    <p id="redes" class="redes"><a href="https://www.linkedin.com/in/maikelmy/" target="_blank">LinkedIn</a></p>
-    <p class="redes"><a href="https://github.com/devMaikel" target="_blank">GitHub</a></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>

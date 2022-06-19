@@ -4,13 +4,13 @@ body {
   font-family: 'Red Hat Mono', monospace;
   padding: 1%;
 }
-#Nome{
+#Nome {
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
   line-height: 0%;
   text-align: center;
 }
-#estudante{
+#estudante {
   font-size: 15px;
   line-height: 0%;
   text-align: center;
@@ -18,10 +18,10 @@ body {
 li {
   line-height: 50px;
 }
-.redes{
+.redes {
   text-align: center;
 }
-#Foto{
+#Foto {
   float: left;
   padding: 10px;
   background-color:darkgray;
@@ -52,4 +52,80 @@ ul li:nth-child(odd) { /*pega somente itens impar (odd) se fosse par seria (even
 
 .ditado-elements {
   display: inline-block;
+}
+
+#game {
+  width: 80%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 15px solid green;
+  background: linear-gradient(#86CEFB, #E0E6FE);
+}
+
+#pipe {
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  height: 70px;
+  animation: pipe-animation 2s infinite linear;
+  /* left: 0px; */
+}
+
+#mario {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  z-index: 1;
+}
+
+.jump {
+  animation: mario-jump 500ms ease-out;
+}
+
+#clouds {
+  position: absolute;
+  width: 500px;
+  bottom: 230px;
+  animation: clouds-animation 5s infinite linear;
+  /* right: -450px; */
+}
+
+@keyframes clouds-animation {
+  from {
+    right: -450px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes pipe-animation {
+  from {
+    right: -70px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes mario-jump {
+  0% {
+    bottom: 0;
+  }
+  40% {
+    bottom: 180px;
+  }
+  50% {
+    bottom: 180px;
+  }
+  55% {
+    bottom: 180px;
+  }
+  100% {
+    bottom: 0;
+  }
 }

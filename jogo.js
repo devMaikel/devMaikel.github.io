@@ -29,3 +29,5 @@ const verify = setInterval(() => {
 }, 10)
 
 document.addEventListener('keydown', jump);
+
+// faltando implementar o start

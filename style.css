@@ -54,6 +54,12 @@ ul li:nth-child(odd) { /*pega somente itens impar (odd) se fosse par seria (even
   display: inline-block;
 }
 
+.score {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
 #game {
   width: 80%;
   height: 500px;
